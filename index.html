@@ -1,0 +1,27 @@
+<html>
+    <head> 
+        <title>AI Object Finder</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+<body background="images.jpeg">
+    <center>
+<h1 class="btn btn-info heading"> AI object finder
+    <br><br>
+    <span style="color: black; font-size: 13px;">the input name should match name present in cocossd model</span>
+</h1>
+<br><br>
+<div class="form-group" style="width: 30%;">
+    <label>object name</label>
+    <input type="text" class="form-control" id="object-name"><br><br>
+    <button onclick="start()" class="btn btn-primary">start</button>
+</div>
+<h3 id="status" class="btn btn-danger"></h3>
+<h3 id="object_status" class="btn btn-warning"></h3>
+        </center>
+    </body>
+    <script src="main.js"></script>
+</html>
